@@ -1,5 +1,7 @@
 # git-commit
 
+GitHub Action to commit when a file has changed during the Workflow.
+
 # Usage
 
 ```yml
