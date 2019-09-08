@@ -1,0 +1,25 @@
+name: Git Commit
+description: Commit changes
+author: Matheus Albino
+branding:
+  icon: git-commit
+  color: blue
+inputs:
+  github-token:
+    description: Github Token
+    required: true
+  user-name:
+    description: Git user.name
+    required: false
+    default: Github Actions - Git Commit
+  user-email:
+    description: Git user.email
+    required: false
+    default: github-actions-git-commit@users.noreply.github.com
+  message:
+    description: Git message
+    required: false
+    default: "Github Actions - Git Commit"
+runs:
+  using: node12
+  main: lib/index.js
