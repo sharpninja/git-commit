@@ -1,0 +1,14 @@
+{
+  "name": "git-commit",
+  "version": "1.0.0",
+  "description": "GitHub Action to commit when a file has changed during the Workflow",
+  "main": "lib/index.js",
+  "repository": "git@github.com:matheusalbino/git-commit.git",
+  "author": "Matheus Albino <matheusalbino@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/exec": "^1.0.1"
+  }
+}
