@@ -9,5 +9,6 @@ GitHub Action to commit when a file has changed during the Workflow.
   with:
     user-name: Equal
     user-email: equal@example.com
+    message: This a commit from Github Actions
     github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
