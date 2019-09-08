@@ -1,5 +1,5 @@
-name: Git Commit
-description: Commit changes
+name: Git Commit on Workflow
+description: Commit when a file has changed during the Workflow
 author: Matheus Albino
 branding:
   icon: git-commit
