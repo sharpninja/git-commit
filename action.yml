@@ -20,6 +20,10 @@ inputs:
     description: Git message
     required: false
     default: "Github Actions - Git Commit"
+  tag:
+    description: Git tag to place on commit
+    required: false
+    default: "no-build"
 runs:
   using: node12
   main: lib/index.js
